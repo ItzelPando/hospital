@@ -1,0 +1,21 @@
+.p{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.linea{
+    position:   relative;
+    background-color: #1a73c5;
+    height: 1px;
+    margin-left: 10px;
+    max-width: 250%;
+    border-radius: 5px;
+}
+
+.btn-know{
+    background-color: #1a73c5; /* Azul */
+    border: 15px solid #1a73c5; /* Borde */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 150px;
+}

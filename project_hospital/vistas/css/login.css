@@ -1,0 +1,145 @@
+.row{
+    margin-left: -120px;
+}
+
+.titulo{
+    color: blueviolet;
+}
+
+.container{
+    position: relative;
+}
+
+
+.email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 3.36%;
+    top: 33.5%; /* Ajustamos la posición vertical */
+    left: 61%;
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+.campo-email {
+    position: absolute;
+    width: 27.84%;
+    height: 3.36%;
+    top: 36.5%; /* Ajustamos la posición vertical */
+    left: 61%;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 6px;
+}
+
+.password {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 3.36%; 
+    top: 45%; 
+    left: 61%;
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.campo-password {
+    position: absolute;
+    width: 27.84%;
+    height: 3.36%;
+    top: 48%; 
+    left: 61%;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 6.08%;
+    height: 1.32%;
+    top: 52%;
+    left: 82.7%;
+    color: #7c7c7c;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 11.516px;
+    text-align: right;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+a{
+    color: #7c7c7c;
+}
+
+.sign-up {
+    position: absolute;
+    width: 423px;
+    height: 37px;
+    top: 70%;
+    left: 55%;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+    z-index: 2;
+}
+.dont-have-account {
+    position: relative;
+    color: #494949;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+}
+.sign-up-8 {
+    position: relative;
+    color: #494949;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+    text-decoration: underline;
+}
+.component-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    top: 60%;
+    left: 66%;
+    padding: 12px 84px 12px 84px;
+    cursor: pointer;
+    background: #2c86d9;
+    border: none;
+    overflow: hidden;
+    border-radius: 50px;
+}

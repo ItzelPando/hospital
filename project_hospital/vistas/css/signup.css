@@ -1,0 +1,224 @@
+.row{
+    margin-left: -120px;
+}
+
+.titulo{
+    color: blueviolet;
+}
+
+.container{
+    position: relative;
+    
+}
+
+.name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 3.36%;
+    top: 33%; /* Ajustamos la posición vertical */
+    left: 60%;
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 29;
+}
+
+.campo-name {
+    position: absolute;
+    width: 27.84%;
+    height: 3.36%;
+    top: 36.5%; /* Ajustamos la posición vertical */
+    left: 60%;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    z-index: 7;
+    border-radius: 6px;
+}
+
+.lastname {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 3.36%;
+    top: 41%; /* Ajustamos la posición vertical */
+    left: 60%;
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 29;
+}
+
+.campo-lastname {
+    position: absolute;
+    width: 27.84%;
+    height: 3.36%;
+    top: 44.5%; /* Ajustamos la posición vertical */
+    left: 60%;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    z-index: 7;
+    border-radius: 6px;
+}
+
+.email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 3.36%;
+    top: 49%; /* Ajustamos la posición vertical */
+    left: 60%;
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 29;
+}
+
+.campo-email {
+    position: absolute;
+    width: 27.84%;
+    height: 3.36%;
+    top: 51.9%; /* Ajustamos la posición vertical */
+    left: 60%;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    z-index: 7;
+    border-radius: 6px;
+}
+
+.password {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 3.36%; /* Ajustamos la altura para que coincida con el texto */
+    top: 56%; /* Ajustamos la posición vertical */
+    left: 60%;
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+}
+
+.campo-password {
+    position: absolute;
+    width: 27.84%;
+    height: 3.36%;
+    top: 59%; /* Ajustamos la posición vertical */
+    left: 60%;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    z-index: 7;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.terms-of-service {
+    position: absolute;
+    width: 96.98%;
+    height: 100%;
+    top: 65%;
+    left: 25.5%;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+  }
+  .and,
+  .and-2 {
+    color: #000000;
+  }
+  .terms-of-service-1,
+  .privacy-policy,
+  .privacy-policy-3 {
+    color: #01669f;
+    text-decoration: underline;
+  }
+  .empty {
+    color: #000000;
+  }
+  
+  a{
+    color: #7c7c7c;
+  }
+
+  .sign-up {
+    position: absolute;
+    width: 423px;
+    height: 37px;
+    top: 79%;
+    left: 56%;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+    z-index: 2;
+  }
+  .have-account {
+    position: relative;
+    color: #494949;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+    left: 10%;
+  }
+  .sign-up-8 {
+    position: relative;
+    color: #494949;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.592px;
+    text-align: center;
+    right: -10%;
+    text-decoration: underline;
+  }
+
+  .component-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+    position: absolute;
+    width: 255px;
+    height: 45px;
+    top: 72%;
+    left: 64%;
+    padding: 12px 84px 12px 84px;
+    cursor: pointer;
+    background: #2c86d9;
+    border: none;
+    z-index: 21;
+    overflow: hidden;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.592px;
+  }
+

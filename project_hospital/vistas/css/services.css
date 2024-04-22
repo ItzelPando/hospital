@@ -1,0 +1,57 @@
+h2{
+    font-family: cambay; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.linea{
+    position:   relative;
+    background-color: #01a2b0;
+    height: 5px;
+    margin-left: -10px;
+    max-width: 65%;
+    border-radius: 5px;
+}
+
+.columna_1{
+    margin-left: 80px;
+    align-self: left;
+}
+
+.columna_2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p{
+    font-family: 'Cambay';
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+.labs {
+    margin-top: 30px;
+    height: 344px;
+    width: 610px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 30px; 
+}
+
+.carousel-inner {
+    height: 100vh; /* Ajusta la altura según la altura de la ventana */
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ajusta la altura según la altura de la ventana */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: auto; /* Desplaza los controles de navegación */
+    bottom: 0; /* Coloca los controles de navegación en la parte inferior */
+}

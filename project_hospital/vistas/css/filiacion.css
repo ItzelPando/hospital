@@ -1,0 +1,51 @@
+.rectangulo {
+    width: 100%;
+    height: auto; /* Cambiado a auto para adaptarse al contenido */
+    border: 2px solid #333; 
+    border-radius: 38px;
+    position: relative;
+    overflow: hidden;
+}
+.progress {
+    width: 100%;
+    text-align: center;
+    position: relative; /* Cambiado a relativo */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact-form1 {
+    padding: 125px; /* Espacio interno del formulario */
+}
+input {
+    width: 100%; /* Ancho completo del campo de entrada */
+    margin-bottom: 10px; /* Espacio entre los campos */
+    border-color: #333;
+    border: 10px;
+}
+.btn-primary{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #3498db;
+    border-color: #3498db;
+    
+}
+.vr{
+    height: fit-content;
+}
+#paso1{
+    padding: 90px;
+    padding-top: 75px;
+}
+#paso2{
+    padding: 90px;
+    padding-top: 75px;
+}
+#paso3{
+    padding: 90px;
+    padding-top: -80px;
+}
+#paso4{
+    padding: 90px;
+    padding-top: -100px;
+}

@@ -1,0 +1,28 @@
+.card {
+    min-width: 100px; /* Ancho mínimo */
+    min-height: 179px; /* Altura mínima */
+    border-radius: 25px; /* Redondeo de borde */
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+}
+
+.card.bg-color-1 {
+    background-color: #FF5733; /* Color de fondo para la tarjeta 1 */
+    height: 400px ;
+}
+
+.card.bg-color-2 {
+    background-color: #33FF57; /* Color de fondo para la tarjeta 2 */
+}
+
+.card.bg-color-3 {
+    background-color: #5733FF; /* Color de fondo para la tarjeta 3 */
+}
+
+.card.bg-color-4 {
+    background-color: #33B5FF; /* Color de fondo para la tarjeta 4 */
+}
+
+.card.bg-color-5 {
+    background-color: #26e66f; /* Color de fondo para la tarjeta 4 */
+    height: 400px ;
+}
