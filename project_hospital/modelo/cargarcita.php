@@ -30,6 +30,7 @@ if ($result->num_rows > 0) {
                 <td> 
                     <button onclick='mostrarEditarDoc({$row['id']}, \"{$row['name']}\", \"{$row['lastname']}\", \"{$row['tipo_cita']}\", \"{$row['fecha']}\", \"{$row['hora']}\")'>Editar </button>
                     <button onclick='mostrarEliminarDoc({$row['id']}, \"{$row['name']}\", \"{$row['lastname']}\")'>Eliminar </button>
+                    <button onclick='mostrarFormularioHistorial({$row['id']})'>Agregar Historial</button>
                 </td>
             </tr>";
     }
