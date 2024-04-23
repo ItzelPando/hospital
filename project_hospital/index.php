@@ -27,7 +27,7 @@
                         to bring prevention and timely diagnostic services to the population of Mexico, offering them
                         human
                         human attention and quality technological equipment at affordable prices.</p> <br>
-                        <a href="vistas/login.php">
+                        <a href="vistas/agendarcitasinlogin.php">
                             <button id="btn-cita" class="btn btn-primary agendar-cita">Appointment</button>
                         </a>
                 </div>
