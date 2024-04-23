@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <h4>Schedule your appointment</h4>
+        <form id="appointmentForm">
+            <label for="especialidad">Especialidad:</label>
+            <select id="especialidad" name="especialidad" required>
+                <option value="1">Laboratory</option>
+                <option value="2">General</option>
+                <option value="3">Ultrasound</option>
+                <option value="4">Optic</option>
+                <option value="5">X-ray</option>
+                <option value="6">Cardiology</option>
+            </select> <br><br>
+            
+            <label for="fecha">Fecha:</label><br>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+            
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required><br><br>
+            
+            <button type="button" onclick="agendarCita()">Agendar</button>
+        </form>        
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+       function agendarCita() {
+            var id_tipocita = document.getElementById('especialidad').value;
+            var fecha = document.getElementById('fecha').value;
+            var hora = document.getElementById('hora').value;
+
+            $.ajax({
+                type: 'POST',
+                url: 'guardar_cita_sinuser.php',
+                data: {
+                id_tipocita: id_tipocita,
+                fecha: fecha,
+                hora: hora
+            },
+            success: function(response) {
+                alert('Cita agendada correctamente.');
+            // Aquí puedes redirigir o realizar otras acciones después de agendar la cita
+            },
+            error: function(xhr, status, error) {
+                console.error(error);
+                alert('Error al agendar la cita.');
+            // Manejar errores si es necesario
+            }
+            });
+        }
+        </script>
+</body>
+</html>
