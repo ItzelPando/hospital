@@ -13,10 +13,10 @@ img {
 
 }
 
-h2 {
+h2{
     background-color: #6884b7;
     color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
     height: 80px;
     font-family: 'Times New Roman', Times, serif;
@@ -91,7 +91,7 @@ body {
 
 .card-content {
     position: relative;
-    height: 81%;
+    height: 80%;
     background-color: #fffffc;
     display: flex;
     flex-direction: column;
