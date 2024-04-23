@@ -32,15 +32,13 @@
                         </a>
                 </div>
             </div>
-            <div class="row-md-12">
+            <div class="row-md-12"> <!-- Carousel -->
                 <h2>Services</h2>
                 <div class="carousel-container">
                     <div class="carousel">
-                        <!-- Repeat this card container 10 times -->
-                        <!-- ... (same as the original card containers) ... -->
                         <div class="card">
                             <div class="card-content">
-                                <img class="imagen" src="vistas/img/1.png" alt="Content Image">
+                                <img class="imagen" src="vistas/img/laboratory.jpg" alt="Content Image">
                             </div>
                             <div class="card-base">
                                 <div class="card-info">
@@ -50,7 +48,7 @@
                         </div>
                         <div class="card">
                             <div class="card-content">
-                                <img class="imagen" src="vistas/img/7.png" alt="Content Image">
+                                <img class="imagen" src="vistas/img/cardiology.jpg" alt="Content Image">
                             </div>
                             <div class="card-base">
                                 <div class="card-info">
@@ -60,7 +58,7 @@
                         </div>
                         <div class="card">
                             <div class="card-content">
-                                <img class="imagen" src="vistas/img/3.png" alt="Content Image">
+                                <img class="imagen" src="vistas/img/ultrasound.jpg" alt="Content Image">
                             </div>
                             <div class="card-base">
                                 <div class="card-info">
@@ -70,7 +68,7 @@
                         </div>
                         <div class="card">
                             <div class="card-content">
-                                <img class="imagen" src="vistas/img/6.png" alt="Content Image">
+                                <img class="imagen" src="vistas/img/general.jpg" alt="Content Image">
                             </div>
                             <div class="card-base">
                                 <div class="card-info">
@@ -80,7 +78,7 @@
                         </div>
                         <div class="card">
                             <div class="card-content">
-                                <img class="imagen" src="vistas/img/5.png" alt="Content Image">
+                                <img class="imagen" src="vistas/img/x-ray.jpg" alt="Content Image">
                             </div>
                             <div class="card-base">
                                 <div class="card-info">
@@ -90,7 +88,7 @@
                         </div>
                         <div class="card">
                             <div class="card-content">
-                                <img class="imagen" src="vistas/img/2.png" alt="Content Image">
+                                <img class="imagen" src="vistas/img/plastic.jpg" alt="Content Image">
                                 <img class="img-doctor" src="vistas/img/doc7.png" alt="">
                             </div>
                             <div class="card-base">
@@ -102,11 +100,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+
+            <div class="container"> <!--Map-->
                 <div class="row">
                     <div class="row-map col-12 col-lg-7">
                         <h2 style="margin-top: 40px;">Find us</h2>
-                        <div class="map"> <!-- Map -->
+                        <div class="map"> 
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.1273197485193!2d-104.6515139!3d24.026575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bd3f47c9b73f%3A0x1739f232598383d8!2sHospital%20de%20la%20Paz!5e0!3m2!1ses!2smx!4v1707912841680!5m2!1ses!2smx"
                                 width="1256px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
